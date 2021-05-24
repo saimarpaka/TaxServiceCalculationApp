@@ -38,6 +38,7 @@ namespace TaxService.TaxCalculators.TaxJar
 
             return restRequest;
         }
+
         public RestRequest CreatePostRequest<T>( T payload, EndpointType endpointType )
         {
             var restRequest =
