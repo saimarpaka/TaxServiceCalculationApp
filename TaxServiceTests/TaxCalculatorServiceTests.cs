@@ -33,7 +33,7 @@ namespace TaxService.Tests
                         new TaxJarCalculatorClient(
                                 new TaxJarRequestBuilder(
                                     new RequestBuilder(
-                                        new TaxJarAuthenticationProvider( "5da2f821eee4035db4771edab942a4cc" )),
+                                        new TaxJarAuthenticationProvider( "{keyhere}" )),
                                     "https://api.taxjar.com/v2/rates/{zip}",
                                     "https://api.taxjar.com/v2/taxes" ),
                                 new RestSharp.RestClient() ),
